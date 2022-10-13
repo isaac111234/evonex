@@ -1,0 +1,122 @@
+body{
+
+    font-family: sans-serif;
+
+}
+.light li a{
+    color: white;
+    text-decoration: none;
+}
+.light{
+    color: white;
+    text-decoration: none;
+}
+.light1 li a{
+    color:black;
+    text-decoration: none;
+}
+.light li a:hover{
+    color: rgb(244, 149, 6); 
+    border-bottom: 2px solid  rgb(244, 149, 6);
+}
+.button-1{
+    color:white;
+    background-color: rgb(244, 149, 6);
+    border: none;
+    border-radius: 10px ;
+    padding: 7px;
+    text-align: center;
+}
+.lik:hover{
+    color: rgb(244, 149, 6); 
+    border-bottom: 2px solid  rgb(244, 149, 6);
+}
+.button-1:hover{
+    background-color: rgb(48, 95, 235);
+}
+.bot{
+    border-radius: 3px ; 
+    border: none;
+    background-color:  rgb(244, 149, 6) ;
+    color: white;
+    padding: 10px;
+ }
+ .tele{
+  float: right;
+  padding-top: 10px;
+ }
+ .tele1{
+    float: right;
+  
+   }
+ .vod{
+    font-size: 1.2rem;
+    padding: 5px;
+ }
+footer{
+    background-color: rgba(33, 37, 41);
+    padding-bottom: 10px;
+}
+.bill{
+    background-color: white;
+    border-radius: 20px;
+    width: 44%;
+    margin: 0 auto;
+    border: 2px solid white;  
+}
+.dif{
+    background-color: rgb(244, 149, 6) ;
+    padding: 15px;
+    border: none;
+    width: 30%;
+    border-radius: 10px;
+    margin-right: 2%;
+}
+.ifon{
+    color: rgb(135, 130, 130);
+}
+.bord{
+    border-bottom: 2px solid  rgb(244, 149, 6);
+}
+.bill input{
+    outline: none;
+    border: 0;
+    border-radius: 20px;
+    padding: 5%;
+}
+
+
+
+@media (max-width:1000px){
+    .rew{
+        text-align: center;
+           }
+           .dif{
+            background-color: rgb(244, 149, 6) ;
+           
+            border: none;
+            width: 35%;
+            border-radius: 10px;
+            padding: 2%;
+        
+        }
+        .bill input{
+            outline: none;
+            border: 0;
+            border-radius: 20px;
+            font-size: 12px;
+        }
+        .bill{
+            background-color: white;
+            border-radius: 10px;
+            width: 100%;
+            margin: 0 auto;
+            border: 2px solid white;
+        }
+        .note{
+            font-size: 0.7rem;
+        }
+        .vod{
+            text-align: left;
+        }
+}

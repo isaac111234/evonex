@@ -1,0 +1,99 @@
+body{
+    font-family: sans-serif;
+
+}
+.home{
+   background-color:  rgb(254, 244, 233);
+   padding-top: 10px;
+
+}
+.class{
+    font-size: 1.3rem;
+}
+.sod{
+    padding: 10px;
+    width: 60%;
+    border-radius: 10px;
+    background-color:  rgb(254, 244, 233);
+}
+.sod input{
+    outline: none;
+    border: none;
+    background-color:  rgb(254, 244, 233);
+    border-left: 1px solid black;
+}
+.hey{
+    color: rgb(255, 136, 0);
+    padding-left: 3px;
+}
+.close{
+    width: 98%;
+    color: white;
+    background-color:  rgb(255, 136, 0);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.call{
+    border-left: 2px solid black;
+}
+.take{
+   border-bottom: 1px solid black;
+    width: 20%;
+    height: 1px;
+    
+   
+}
+.kind{
+    border-radius: 30px;
+}
+.cont{
+    justify-content: center;
+}
+.dog{
+    justify-content: center;
+}
+.cain{
+    font-size: 1.1rem;
+}
+.close:hover{
+   border: 1px solid rgb(255, 136, 0);
+    background-color: white;
+    color: black;
+}
+.or{
+    color:rgb(255, 136, 0) ;
+}
+.vog{
+    color:white;
+}
+.dop{
+    background-color:rgb(255, 136, 0) ;
+    width: 3%;
+    text-align: center;
+}
+@media (max-width:1000px){
+    .sod{
+        padding: 10px;
+        width: 100%;
+        border-radius: 10px;
+        background-color:  rgb(254, 244, 233);
+    }
+    .sod input{
+        outline: none;
+        border: none;
+        background-color:  rgb(254, 244, 233);
+        border-left: 1px solid black;
+    }
+    .hey{
+        color: rgb(255, 136, 0);
+        font-size: 0.9rem;
+        padding-left: 3px;
+    }
+    .cain{
+        font-size: 0.8rem;
+    }
+    .dop{
+        width: 6%;
+    }
+}
